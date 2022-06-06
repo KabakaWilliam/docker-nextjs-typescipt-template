@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  app:
+    image: qcri-dashboard-image-production
+    build:
+      context: .
+      dockerfile: Dockerfile.production
+    ports:
+      - 3000:3000
+    # run with docker-compose -f docker-compose.production.yml up --build --force-recreate
