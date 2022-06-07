@@ -13,7 +13,7 @@ const Home: NextPage = () => {
       </Head>
 
       <main className="flex w-screen h-screen text-[40px]   items-center justify-center text-orange-400">
-        Hola Docker🐳
+        Hello Docker🐳
       </main>
     </div>
   );
